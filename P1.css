@@ -1,0 +1,41 @@
+header {
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+body {
+    background-color: #e5e4e2;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+
+
+
+}
+
+ol{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+
+}
+
+ul li {
+    list-style-type: square;
+    
+}
+
+h2 {
+    font-size: large;
+    
+}
+
+p {
+   font-weight: bold;
+    
+    
+}
+
+h3{
+
+    text-decoration: underline;
+
+}
