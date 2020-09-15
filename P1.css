@@ -9,6 +9,10 @@ body {
     font-family: 'Times New Roman', Times, serif;
     font-size: large;
     padding: 5%;
+    margin: auto;
+    text-align: center;
+    width: 80ch;
+    color: #003839;
 }
 
 ol{
@@ -29,5 +33,6 @@ h2 {
 h3{
 
     text-decoration: underline;
+    color: #003839;
 
 }
