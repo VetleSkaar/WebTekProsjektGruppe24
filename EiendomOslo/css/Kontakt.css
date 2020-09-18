@@ -3,10 +3,6 @@ body {
     text-align: center;
 }
 
-table {
-    display: block;
-    margin: auto;
-}
 
 tr {
     padding: 5px;
