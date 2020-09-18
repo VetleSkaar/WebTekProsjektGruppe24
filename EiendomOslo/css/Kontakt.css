@@ -1,3 +1,13 @@
-h1 {
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
+}
+
+table {
+    display: block;
+    margin: auto;
+}
+
+tr {
+    padding: 5px;
 }
