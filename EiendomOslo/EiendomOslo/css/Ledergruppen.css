@@ -1,0 +1,72 @@
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+    color: #003839;
+    font-size: 40px;
+    
+}
+
+h3{
+    font-family: sans-serif;
+    color: #003839;
+}
+
+body{
+    
+    background-color: #f5f5f5;
+    margin-left: 100% auto;
+    text-align: center;
+    margin: auto;
+    width: 100ch;
+    color: #003839;
+    font-family: sans-serif;
+    
+
+}
+
+p{
+    font-family: sans-serif;
+    
+}
+
+#LDC img{
+
+    width: 250px;
+    height: 300px;
+}
+
+#TC img {
+
+    width: 250px;
+    height: 300px;
+
+}
+
+#SD img{
+    width: 250px;
+    height: 300px;
+}
+
+ul li{
+
+    list-style-type: square;
+    font-family: sans-serif;
+    color: #003839;
+    list-style-position: inside;
+}
+
+footer {
+    font-size: 90%;
+    display: block;
+    overflow: hidden;
+    clear: both;
+    margin-left: -0px;
+    margin-top: 100px;
+    border: 2px solid #000000;
+    padding: 5px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+
+
