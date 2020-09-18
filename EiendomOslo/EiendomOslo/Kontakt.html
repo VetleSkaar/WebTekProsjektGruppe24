@@ -60,24 +60,42 @@
 
     <section>
         
-        <h4>Kontakter</h4>
+        <h3>Kom i kontakt med oss</h3>
+        <h5>Send oss en e-post eller et telefonnummer så tar vi kontakt med deg!</h5>
+        <form id="kontaktform">
+            <table>
+                <tr>
+                    <td>E-post: </td>
+                    <td><input type="email"></td>
+                </tr>
+                <tr>
+                    <td>Tlf.Nr.</td>
+                    <td><input type="tel"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" id="submitoutput"></td>
+                </tr>
+            </table>
+        </form>
         
-
     </section>
-
-
-
-
-
-    </div>
-
-
-
 
      <footer> Hovedkontor: Tjuvholmen Alle 21 |
         Postadresse: EiendomOslo 0221 Oslo |
         Org.nr.EiendomOslo: 47671691
     </footer>
 
+    
+    <script>
+        
+        document.getElementById("kontaktform").onsubmit = function submitform(){
+            window.alert("Takk. Vi tar kontakt med deg så for som mulig!");
+        }
+    
+    </script>
 </body>
 </html>
