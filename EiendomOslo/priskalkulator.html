@@ -8,7 +8,7 @@
         
         <link rel="shortcut icon" href="./favicon/favicon-32x32.png" type="image/x-icon">
 
-        <script src="#"></script>
+        <script src="script/kalkulator.js"></script>
         
         <title>Priskalkulator| EiendomOslo </title>
 
@@ -24,20 +24,41 @@
         <div>
             <table>
                 <tr>
+                    <th colspan="2">Parametere</th>
+                </tr>
+                <tr>
+                    <td rowspan="2">
+                        <div id="område">
+                            <input type="radio">Majorstuen<br>   
+                            <input type="radio">Frogner<br>
+                            <input type="radio">Ullevåll<br>
+                            <input type="radio">Grünerløkka<br>
+                            <input type="radio">Ekeberg<br>
+                            <input type="radio">Holmenkollen<br>
+                            <input type="radio">Vålerenga<br>
+                            <input type="radio">Sentrum<br>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
                     <td>
-                    
-                        <div>Velg område:</div>
-                        <div>Velg tillegg:</div>
-                    
+                        <div>Velg type:<br>
+                            <input type="radio">Leilighet<br>
+                            <input type="radio">Bolig<br>
+                        </div>
+                    </td>
+                </tr>
+                <tr><th colspan="2">Pris</th></tr>
+                <tr>
+                    <td>
+                        <div>Pris
+                            <div id="kvmpris">10000kr</div>
+                        </div>
                     </td>
                     <td>
-                    
-                        <span>
-                            <div id="kvmpris">Pris (Kvm)</div>
-                            <div></div>
-                            <div id="totalpris">Pris (Total)</div>
-                        </span>
-                    
+                        <div id="totalpris">Pris (Total)
+                            <div>10000kr</div>
+                        </div>
                     </td>
                 </tr>
             </table>

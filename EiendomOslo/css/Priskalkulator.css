@@ -29,13 +29,18 @@ footer {
 
 /* Det over ^ var her før Vetle begynte å jobbe med siden. Ikke fiksa ift. main.css */
 
-td, tr {
-    padding: 20px;
-    margin-top: 20px;
+table, th, tr, td {
+    margin: auto;
+    border: 1px solid black;
+    border-spacing: 10px;
+}
+
+
+td {
+    width: 300px;
 }
 
 div {
     padding: 20px;
     position: relative;
-    margin-top: 30px;
 }
