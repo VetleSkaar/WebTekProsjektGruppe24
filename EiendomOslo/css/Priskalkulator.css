@@ -26,21 +26,3 @@ footer {
     text-align: center;
     font-family: sans-serif;
 }
-
-/* Det over ^ var her før Vetle begynte å jobbe med siden. Ikke fiksa ift. main.css */
-
-table, th, tr, td {
-    margin: auto;
-    border: 1px solid black;
-    border-spacing: 10px;
-}
-
-
-td {
-    width: 300px;
-}
-
-div {
-    padding: 20px;
-    position: relative;
-}

@@ -3,6 +3,7 @@
     <head>
     
         <title>EiendomOslo</title>
+        <link rel="stylesheet" href="./css/Main.css">
 
         <link rel="stylesheet" href="./css/style.css">
 
@@ -14,7 +15,9 @@
     </head>
 
     <body>
-        <nav class="navbar">
+        <div id="NB">
+            <nav
+             class="navbar">
                 <a href="EiendomOslo.html" >Hjem |</a>
                 <a href="Prosjekter.html">Prosjekter |</a>
                 <a href="Verdivurdering.html">Verdivurdering |</a>
@@ -22,7 +25,10 @@
                 <a href="Ledergruppen.html" >Ledergruppen | </a>
                 <a href="Kontakt.html"> Kontakt</a>
             
-        </nav>
+            </nav>
+
+        </div>
+        
         <header><h1>EiendomOslo</h1></header>
 
         <h2>Våre arbeidsoppgaver</h2>
@@ -41,21 +47,9 @@
         
 
             <div class="img_container">
-                <div>
-                    <img src="./img/oslohus.jpg" alt="">
-
-                    <img src="./img/majorstuen.jpg" alt="">
-    
-                    <img src="./img/homansbyen.jpg" alt="">
-                </div>
-                
-                <div class="img_container_bottom">
-                    <img src="./img/Bygdøy2.jpg" alt="">
-
-                    <img src="./img/Bygdøy.jpg" alt="">
-    
-                    <img src="./img/Sjølyst.jpg" alt="">
-                </div>
+            
+                <img name="slideshow" width="650" height="350"/>
+                    
 
             
 
@@ -90,9 +84,18 @@
                         <td>3.6</td>
                     </tr>
                 </table>
+                <hr>
             </div>
            
                 
+        </section>
+
+        <section>
+            <h4> Utviklingen av boligmarkedet i Oslo</h4>
+            <div class='Funksjon'>
+                <img src="./img/Utvikling.jpeg" alt="">
+
+            </div>
 
         </section>
 
@@ -105,6 +108,8 @@
         Postadresse: EiendomOslo 0221 Oslo |
         Org.nr.EiendomOslo: 47671691
     </footer>
+
+    <script src="./JavaScript/JS/EiendomOslo.js"></script>
 
     </body>
 

@@ -1,109 +1,4 @@
 
-body {
-    font-family: sans-serif;
-    background: #f5f5f5;
-    margin: auto;
-    color: #003839;
-    width: 100ch;
-    
-}
-
-
-h1 {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    text-decoration: underline
-    overline;
-    text-decoration-color: #003839;
-   font-size: 40px;
-   margin-top: 80px;
-}
-
-h2{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: large;
-    text-align: center;
-}
-
-h3{
-    font-family: sans-serif;
-    font-size: large;
-    font-style: normal;
-    text-align: center;
-
-}
-
-ul li{
-    list-style-type: square;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: large;
-    text-align: center;
-    list-style-position: inside;
-
-
-}
-
-img{
-    
-    box-sizing: border-box;
-    display: inline-block;
-    width: 32.33%;
-    height: 252.78px;
-    margin-top: 35px;
-    border-radius: 5px;
-    
-}
-
-.img_container {
-    border: 2px solid #000000;
-    text-align: center;
-    width: 100ch;
-    margin: auto;
-}
-
-.img_container_bottom {
-    margin-bottom: 35px;
-    width: 100ch;
-    margin: auto;
-
-}
-
-nav { 
-
-    font-family: sans-serif;
-    font-size: medium;
-
-}
-
-nav a:link{
-    
-    color: #003839;
-    text-decoration: none;
-}
-
-nav a:visited {
-
-    color: #003839;
-
-}
-
-nav a:hover {
-    color: bl;
-
-}
-
-footer {
-    font-size: 90%;
-    display: block;
-    overflow: hidden;
-    clear: both;
-    margin-left: -0px;
-    margin-top: 100px;
-    border: 2px solid #000000;
-    padding: 5px;
-    text-align: center;
-    font-family: sans-serif;
-}
 
 h4 {
     text-align: center;
@@ -137,7 +32,7 @@ td, th {
     position: fixed;
     padding: 10px;
     margin: auto;
-    background-color:#e5e4ef;
+    background-color: #f5f5f5;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     border-left: 1px solid black;
@@ -149,10 +44,9 @@ td, th {
 
 }
 
-section{
-    padding-left: 10px;
-    padding-right: 10px;
+.Funksjon{
+    margin: auto;
+    text-align: center;
 }
-
 
 
