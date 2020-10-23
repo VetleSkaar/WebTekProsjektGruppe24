@@ -26,3 +26,43 @@ footer {
     text-align: center;
     font-family: sans-serif;
 }
+
+table, th, tr, td {
+    margin: auto;
+    border: 1px solid black;
+    border-spacing: 10px;
+}
+
+table {
+    background-color: gray;
+}
+
+th {
+    background-color: lightgray;
+}
+
+td {
+    width: 300px;
+    height: 200px;
+    background-color: lightgray;
+}
+
+div {
+    margin: auto;
+    padding: 20px;
+    position: relative;
+}
+
+#info {
+    text-align: center;
+}
+
+#pris > td {
+    text-align: center;
+}
+
+#size {
+    width: 60%;
+    text-align: center;
+}
+
